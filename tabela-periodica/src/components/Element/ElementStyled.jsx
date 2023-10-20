@@ -4,10 +4,9 @@ export const ElementBackground = styled.div`
   width: 65px;
   height: 65px;
 
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  cursor: ${(props) => props.category === 'noCategory' ? 'auto' : 'pointer'};
 
-  border-radius: 10px;
   color: #fff;
   background: ${(props) =>
     props.category === "notMetal"
@@ -31,4 +30,32 @@ export const ElementBackground = styled.div`
       : props.category === "Actinidia"
       ? "linear-gradient(158deg, #FF93DA 8.27%, #B9679D 85.38%)"
       : "none"};
+
+  padding: 5px 5px 0px 5px;
+  border-radius: 10px;
+
+  h2 {
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    align-self: start;
+    justify-self: start;
+    position: fixed;
+  }
+  h3 {
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 11px;
+  }
 `;
