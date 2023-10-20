@@ -40,4 +40,23 @@ export const BackgroundPainel = styled.div`
     flex-wrap: wrap;
     gap: 10px;
   }
+  #right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  #header input {
+    width: 290px;
+    height: 30px;
+    margin-top: 17px;
+  }
+  #painelRight {
+    height: 440px;
+    width: 365px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+  }
 `;

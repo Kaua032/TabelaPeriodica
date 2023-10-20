@@ -15,7 +15,7 @@ const Painel = () => {
         <Element category="alkaliMetals" number="87" symbol="Fr" />
       </div>
       <div id="line2">
-        <Element category='noCategory'/>
+        <Element category="noCategory" />
         <Element category="AlkalineEarthMetals" number="4" symbol="Be" />
         <Element category="AlkalineEarthMetals" number="12" symbol="Mg" />
         <Element category="AlkalineEarthMetals" number="20" symbol="Ca" />
@@ -24,9 +24,7 @@ const Painel = () => {
         <Element category="AlkalineEarthMetals" number="88" symbol="Ra" />
       </div>
       <div id="midle">
-        <div id="painelElement">
-
-        </div>
+        <div id="painelElement"></div>
         <div id="square1">
           <Element category="TransitionMetals" number="4" symbol="Be" />
           <Element category="TransitionMetals" number="12" symbol="Mg" />
@@ -75,12 +73,39 @@ const Painel = () => {
           <input type="text" />
         </div>
         <div id="painelRight">
-            
+          <Element category="TransitionMetals" number="4" symbol="Be" />
+          <Element category="TransitionMetals" number="12" symbol="Mg" />
+          <Element category="TransitionMetals" number="20" symbol="Ca" />
+          <Element category="TransitionMetals" number="38" symbol="Sr" />
+          <Element category="TransitionMetals" number="56" symbol="Ba" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="4" symbol="Be" />
+          <Element category="TransitionMetals" number="12" symbol="Mg" />
+          <Element category="TransitionMetals" number="20" symbol="Ca" />
+          <Element category="TransitionMetals" number="38" symbol="Sr" />
+          <Element category="TransitionMetals" number="56" symbol="Ba" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="4" symbol="Be" />
+          <Element category="TransitionMetals" number="12" symbol="Mg" />
+          <Element category="TransitionMetals" number="20" symbol="Ca" />
+          <Element category="TransitionMetals" number="38" symbol="Sr" />
+          <Element category="TransitionMetals" number="56" symbol="Ba" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
+          <Element category="TransitionMetals" number="88" symbol="Ra" />
         </div>
       </div>
-      <div id="line3">
-
-      </div>
+      <div id="line3"></div>
     </BackgroundPainel>
   );
 };
