@@ -6,26 +6,28 @@ export const BackgroundPainel = styled.div`
 
   background-color: #fff;
   border-radius: 20px;
-  border: 1px solid #dcdcdc;
   padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 10px;
 
   display: flex;
 
   #line1,
-  #line2 {
+  #line2,
+  #line3 {
+    height: 515px;
+
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  #line2 {
-    margin-left: 10px;
-  }
   #midle {
+    height: 515px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 45px;
-    margin-left: 10px;
   }
   #painelElement {
     width: 590px;
@@ -41,9 +43,9 @@ export const BackgroundPainel = styled.div`
     gap: 10px;
   }
   #right {
+    height: 515px;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
   }
   #header input {
     width: 290px;
@@ -58,5 +60,10 @@ export const BackgroundPainel = styled.div`
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 28px;
+  }
+  #footerElments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
   }
 `;
